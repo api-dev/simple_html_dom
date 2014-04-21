@@ -1,9 +1,9 @@
 {
-	"name": "voku/simple_html_dom",
-	"description": "Simple HTML DOM package.",
-	"keywords": ["dom", "php dom"],
+	"name": "tpruvot/simple_html_dom",
+	"description": "Simple HTML DOM package for Yii framework.",
+	"keywords": ["dom", "php dom", "yii"],
 	"homepage": "http://simplehtmldom.sourceforge.net/",
-	"type": "library",
+	"type": "yii-extension",
 	"version": "1.5",
 	"require":{
 		"php":">=5.2.4"
@@ -13,10 +13,11 @@
 			"name": "S.C. Chen",
 			"email": "me578022@gmail.com",
 			"homepage": "http://simplehtmldom.sourceforge.net/"
+		},
+		{
+			"name": "Tanguy Pruvot",
+			"email": "tanguy.pruvot@gmail.com",
+			"homepage": "http://tanguy.fr.to/"
 		}
 	],
-	"autoload": {
-		"classmap":["simple_html_dom.php"],
-		"files": ["simple_html_dom.php"]
-	}
 }
